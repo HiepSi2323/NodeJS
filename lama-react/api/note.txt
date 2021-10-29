@@ -1,0 +1,14 @@
+//khoi tao: package.json
+ipm init -y
+
+run server by nodemon: npm start
+
+// active mongod
+chown -R mongodb:mongodb /var/lib/mongodb
+chown mongodb:mongodb /tmp/mongodb-27017.sock
+
+sudo systemctl restart mongod
+sudo systemctl status mongod
+
+sudo systemctl start mongod
+sudo systemctl stop mongod
