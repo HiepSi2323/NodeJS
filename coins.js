@@ -55,4 +55,4 @@ async function writeCSV(){
     });
 }
 
-writeCSV().then
+writeCSV()
